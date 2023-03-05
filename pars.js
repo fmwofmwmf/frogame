@@ -1,6 +1,9 @@
 const nae = document.getElementById('name')
 const desc = document.getElementById('desc')
-const re = /([^\n-]*?)\r?\n\[\r\n(.*?)\]/gms
+const descc = document.getElementById('thewords')
+const gint = document.getElementById('OO0O00OO')
+const re = /([^\n-]*?)\r?\n\[\r?\n(.*?)\]\r?\n\{(\r?\n[^\n-]*?\r?\n)\}\r?\n\<\r?\n(.*?)\>/gms
+const files = ['puzzos/']
 
 var array = []
 fetch('puzzos.txt').then( r => r.text() ).then( t => {
@@ -8,7 +11,7 @@ fetch('puzzos.txt').then( r => r.text() ).then( t => {
     desc.innerHTML = ''
     for (let i = 0; i < array.length; i++) {
         const ele = document.createElement('div')
-        ele.innerHTML = `${i+1}: ${array[i][1]}<br>`
+        ele.innerHTML = `${array[i][1]}<br>`
         ele.onclick = () => {
             console.log(i)
             maien(i)
@@ -27,7 +30,8 @@ function maien(thenumber) {
     //const thenumber = parseInt(prompt(`Please enter a number from 1 to ${array.length}`))
     nae.innerHTML = array[thenumber][1]
     lines = array[thenumber][2].split(/\r?\n/)
-
+    descc.innerHTML = array[thenumber][3]
+    gint.innerHTML = array[thenumber][4]
     const theotherstuff = ['H', 'L', 'W']
     already_seen = [' ']
     lines.forEach(l=>{

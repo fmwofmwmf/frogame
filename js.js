@@ -71,8 +71,7 @@ function is_the_move_ok(all_parts, direct) {
         move_onto_self = (e) => {
             return e[0] == move_location[0] && e[1] == move_location[1]
         }
-        console.log(all_parts, move_location, all_parts.some(move_onto_self))
-        if (entry && (entry.id != 0 && !all_parts.some(move_onto_self)) && (!all_parts.includes(move_location))){
+        if (!entry || (entry.id != 0 && !all_parts.some(move_onto_self)) && (!all_parts.includes(move_location))){
             yep_the_move_is_ok = false
         }
             
@@ -99,8 +98,7 @@ function move_hook(direct) {
         if (end && end.id == 0) {
             if (lhook()[2] != 'NONE') {
                 slhook([...lhook().slice(0,2), 'NONE'])
-                
-                change_tile(lhook().slice(0,2), {id:0, type:'    '})
+                change_tile(lhook().slice(0,2), {id:-1, type:'hook', dir:'N'})
             }
             hook.push([...target, 'NONE'])
             change_tile(target, {id:-1, type:'hook', dir:'N'})
@@ -119,7 +117,6 @@ function pull_hook() {
             opp_dir = moving[lhook()[2]]
             hook_target = [end_hook[0] + opp_dir[0], end_hook[1] + opp_dir[1]]
             hook_block = gttitss(hook_target)
-            
         }
         change_tile(end_hook, {id:0, type:'    '})
         if (hook_block.id != 0 && hook_block.type != 'hook') {
@@ -128,11 +125,8 @@ function pull_hook() {
                 move_tiles(hooked, opposite[lhook()[2]])
                 if (hook.length > 2) {
                     last_link = [lhook()[0] - llhook()[0], llhook()[1] - lhook()[1]]
-                    console.log(dir_to_string(last_link), opposite[lhook()[2]])
                     if (dir_to_string(last_link) == opposite[lhook()[2]]) {
-                        console.log(llhook())
                         sllhook([...llhook().slice(0,2), lhook()[2]])
-                        console.log(llhook())
                         change_tile(llhook().slice(0,2), lhook()[2][0])
                     }
                 }

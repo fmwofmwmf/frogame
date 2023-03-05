@@ -1,12 +1,45 @@
-(0) tutorial
+0.1  tutorIal
+[
+░░░░░░░░
+░W    H░
+░░░░░░░░
+]
+{
+try to move to the yellow
+}
+<
+do that ^^
+>
+
+0.2  tutorIIal
 [
 ░░░░░░░░
 ░WB   H░
 ░C     ░
 ░░░░░░░░
 ]
+{
+try to drag the blocks
+}
+<
+do that ^^
+>
 
-(1) the first level
+0.3  tutorIIIal
+[
+░░░░░░░░
+░W▓▓  H░
+░ ▓    ░
+░░░  ░░░
+]
+{
+you can press z to go back
+}
+<
+the squares are not important
+>
+
+1.1  positioning mechanic
 [
 ░░░░░░░░░
 ░3W  ░  ░
@@ -17,8 +50,14 @@
 ░░    ░H░
 ░░░░░░░░░
 ]
+{
+first mechanics
+}
+<
+no hint
+>
 
-(1) tutorial 3
+1.2  placement mechanic
 [
 ░░░░░░░░░
 ░W  ░4  ░
@@ -29,8 +68,14 @@
 ░░   CCH░
 ░░░░░░░░░
 ]
+{
+first mechanics again
+}
+<
+no hint
+>
 
-(1) this level is broken
+1.3  application
 [
 ░░░░░░░░
 ░    KW░
@@ -45,8 +90,86 @@
 ░A  ░H ░
 ░░░░░░░░
 ]
+{
+its broken as in easier to solve
+}
+<
+no hint
+>
 
-(2) real level 1
+1.4  more moving
+[
+░░░░░░░░░░░░░░
+░AA  B░░     ░
+░ ░ ░BB D░   ░
+░ ░ ░   DDEH ░
+░W░       EE░░
+░░░░░CCC░░░░░░
+░░░░░░░░░░░░░░
+]
+{
+work backwards and stuff
+}
+<
+pretty easy
+>
+
+1.5  link mechanic
+[
+░░░░░░░░░░░░░░░
+░W▓ ░▓░    Q E░
+░ ▓   B ▓▓Q  E░
+░░ ░ BB KK   H░
+░░░░░░░░░░░░░░░
+]
+{
+cool mechanics
+}
+<
+move the blocks and stuff
+>
+
+1.6  switch mechanic
+[
+░░░░░░░░░░░░░░░
+░W 1     ░ ░ ░░
+░  12         ░
+░  12  H  a b ░
+░░░░░     ░ ░ ░
+░   c░    ░a░b░
+░2   ░        ░
+░2b c░ ░░░   c░
+░1a  ░    c ░░░
+░   d░ ░░░   d░
+░a cb░    d   ░
+░░░░░░░░░░░░░░░
+]
+{
+cool mechanics
+}
+<
+move the blocks and stuff
+>
+
+2.1  first real level
+[
+░░░░░░░░░░░░░░
+░ ▓▒  DD     ░
+░W▓▒BBDD  ░  ░
+░ ▓▒▒B    ░  ░
+░ ▓▒▒C       ░
+░ ▓ AA      H░
+░░░░░░  ░░░░░░
+░░░░░░░░░░░░░░
+]
+{
+just another level
+}
+<
+standard packing level
+>
+
+2.2  harder level
 [
 ░▒▒▒W▒▒▒▒
 ░  ▒ ▒  ▒
@@ -59,8 +182,14 @@
 ░░   EEH░
 ░░░░░░░░░
 ]
+{
+cool packing puzzle, but this one is more precise
+}
+<
+pack the triangles at the bottom or something
+>
 
-(4) real level 1.2
+2.2* challenge level
 [
 ░▒▒▒W▒▒▒▓
 ░  ▒ ▒  ▓
@@ -73,8 +202,14 @@
 ░░K  EEH░
 ░░░░░░░░░
 ]
+{
+pog level
+}
+<
+put the long l as low down as possible
+>
 
-(2) Together
+2.3  Together‡
 [
 ░░░░░░░░░░░░░
 ░X2     3 ░W░
@@ -87,8 +222,14 @@
 ░░Z░ TZV ░ V░
 ░░░░░░░░░░░░░
 ]
+{
+Pretty strightforward
+}
+<
+Just move stuff around lol
+>
 
-(3) left and right
+3.1  Left and Right‡
 [
 ░░░░░░░░░
 ░W░    F░
@@ -105,8 +246,62 @@
 ░ZZ ░G M░
 ░░░░░░░░░
 ]
+{
+look at the name
+}
+<
+make sure to think in steps
+>
 
-(4) lock
+3.2  minecraft painting
+[
+░░░░░░░░░░░░░░░░
+░111222  4455 W░
+░661777388  5  ░
+░669 7 8804qqq ░
+░ w 99er 00t q ░
+░ wweeeryy t   ░
+░   uu 2 yioopp░
+░   ua a iioo p░
+░H   aaa issssp░
+░░░░░░░░░░░░░░░░
+]
+{
+pretty standard hard packing level
+}
+<
+just make as much space forward as possible
+>
+
+3.3  Hallway‡
+[
+ W░░░░░   ░░░░░░ 
+ ░    ░   ░  ░ ░ 
+ ░    ░       8░ 
+▒2 2   ▒▒▒░ 1░   
+▒222223▒ ▒░░░░ ░ 
+ ░░░  ░ H    ░ ░ 
+ ░     ▒ ▒░qq░ ░▒
+▒░    ░▒ 4  q░ ░▒
+▒     ░   ░  ░ ░▒
+▒░    ░▒    w░  ▒
+▒░555 ░▒ ▒ w ░ 6 
+▒░   5░▒ 4░e ░ ░▒
+ ░░       ░e ░ ░▒
+   ░  ░▒ ▒░y ░7░ 
+   ░  ░▒▒▒ yeg ░ 
+6 1 7     ░fegg░ 
+36░░77░   ░fhhh░ 
+38░░░░░   ░░░░░░ 
+]
+{
+theres a lot of steps, so make sure you know what you're doing
+}
+<
+idk how to hint this one
+>
+
+4.1  lock
 [
 ░░░░░░░░░░░░
 ░ 12░4░6   ░
@@ -122,3 +317,61 @@
 ░YYB CC  ░T░
 ░░░░░░░░░░░░
 ]
+{
+Like somehow get the locks down
+}
+<
+make sure the right side is very packed
+>
+
+4.2  yep
+[
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░H            ▒  ░D   C   AA░
+░░░ ░ ░ ░ ░ ░ ░  ░  ▒░       A░
+░ ▒ ▒ ▒ ▒ ▒ ▒ ▒░░░ ░ ░   ░░░░ ░
+░░░ ░ ░ ░ ░ ░ ░░░░ ░ ░░░░░ ░  ░
+░DD C2D2A D   DDA░ ░ ░░░C░  ▒ ░
+░1         99   ░░   ░░░ ░B░B░░
+░111  444  9░   ░░   ░ ░ ░░░ ░░
+░66   3 3  7 7  ░░░░E░     ░ ░░
+░6    5   E  J V░   ░░ ▓ ▓ ░ ░░
+░6    5   88 J V░░░ ░░▓   ▓░ ░░
+░  B░B ░░░E░BBVV░░░E░░ ▓▓▓ ░W░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+]
+{
+slightly broken, but try to not put anything in the top grates
+}
+<
+make a yep
+>
+
+5.1  Crusher
+[
+░░░░░░░░░░░░░░░░░░░░░░
+░▒▒▒▒▒▒▒▒░▒▒▒▒▒▒▒▒▒▒▒░
+░        ▒   aaa     ░
+░bbb      ccc aa H   ░
+░bbb ddd   cc        ░
+░b   d       e e ░ ░ ░
+░f   dzz ░gg hiii░   ░
+░f   ddd ░ g hii ░ ░░░
+░ jjfkk  ░ gghh  ░ ░W░
+░  jj   k░   lllm░ ░ ░
+░  jj   k░ nn nlm░ ░ ░
+░  jjoo k░ nnnnlm░ ░ ░
+░q    o  ░       ░ ░ ░
+░qqqq o o░   ss  ░ ░ ░
+░  q  ooo░p  spp ░ ░▒░
+░        ░ppppprr░ ░ ░
+░        ░▓▓▓▓▓▓▓░▓  ░
+░        ░▓▓▓▓▓▓▓░   ░
+░░░░░░░░░░░░░░░░░░░░░░
+]
+{
+nah this one is vile
+}
+<
+like draw it out or something
+>

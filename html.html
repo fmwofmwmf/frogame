@@ -7,20 +7,26 @@
 </head>
 <body>
     <h3 id="name"></h3>
-    <div id="desc">
+    <div id="desc" style="line-height: 20px;">
         loading
     </div>
     <canvas id="myCanvas" style="border-style: solid;"></canvas>
     <div onclick="location.reload();">go back button</div>
+    <p id="thewords"></p>
+    vvv HINT vvv
+    <p id="OO0O00OO" onclick="document.getElementById('OO0O00OO').style.backgroundColor = 'white';" style="background-color:black;"></p>
     <p>
         pull the blocks so you can get to the yellow square!!!<br>
         all blocks of the same color are connected<br>
+        you can move every block as long as you can move it<br>
+        double square is not anything special haha<br>
         controls:<br>
         wasd: move<br>
         q: pull (them -> you)<br>
         e: pull (you -> them)<br>
         z: undo
     </p>
+    version 1.5.9 discontinuous (integrable) gamma 
     <script src="colors.js"></script>
     <script src="pars.js"></script>
     <script src="re.js"></script>

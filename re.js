@@ -2,7 +2,7 @@ var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 
 const colorScheme = {
-    hook:'grey'
+    hook:'pink'
 }
 
 function render(board, hooks, save = true) {
@@ -18,7 +18,7 @@ function render(board, hooks, save = true) {
         }
     }
 
-    const blockSize = 40
+    const blockSize = 30
     const width = board.length * blockSize
     const height = board[0].length * blockSize
 
