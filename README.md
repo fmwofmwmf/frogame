@@ -1,5 +1,2 @@
 # frogame
-repository for frogame
-game play here
-but dont use git fr
-(this just for the site)
+A game about a frog pulling blocks around
